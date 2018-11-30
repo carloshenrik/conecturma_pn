@@ -56,6 +56,16 @@
                                                     %end
                                                 </select>
                                             </div>
+                                            <!--<div class="col-md-10 offset-md-1" style="margin-top: 10px;">
+                                                <label for="turma">Turma</label>
+                                                <select id="professor_turma_{{i['id']}}" class="custom-select custom-select-md">
+                                                    <option value="0"></option>
+                                                    %if i['turmas'] != []:
+                                                        % for j in i['turmas']:
+                                                            <option value="{{j['id']}}">{{j['nome']}}</option>
+                                                        % end
+                                                    % end
+                                                </select> -->
                                         </div>
                                     </div>
                                         <!-- aqui termina o conteudo da guia do dados de escola  -->
